@@ -115,7 +115,7 @@ public class Preguntas extends AppCompatActivity {
             public void onClick(DialogInterface dialogInterface, int i) {
                 if (contadorPreguntas== Trivia_Contador) {
                     // Show Result.
-                    Intent intent = new Intent(getApplicationContext(), ResultActivity.class);
+                    Intent intent = new Intent(getApplicationContext(), Ganador.class);
                     intent.putExtra("RIGHT_ANSWER_COUNT", respuestaCorrecta);
                     startActivity(intent);
 

@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Ganador">
+
+    <TextView
+        android:id="@+id/txt_Ganador"
+        android:layout_width="371dp"
+        android:layout_height="89dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="200px"
+        android:text="Ha ganado una entrada al cine"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="123dp"
+        android:layout_height="99dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/feliz" />
+
+    <ImageView
+        android:id="@+id/CodigoQR"
+        android:layout_width="244dp"
+        android:layout_height="238dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/QR" />
+
+    <Button
+        android:id="@+id/btn_salir"
+        android:layout_width="331dp"
+        android:layout_height="54dp"
+        android:layout_gravity="center_horizontal"
+        android:onClick="Salir"
+        android:layout_marginTop="250px"
+        android:text="Salir"
+        app:backgroundTint="#8F8786" />
+
+</LinearLayout>

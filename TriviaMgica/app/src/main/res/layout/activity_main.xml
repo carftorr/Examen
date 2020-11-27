@@ -15,7 +15,7 @@
         app:srcCompat="@drawable/logo" />
 
     <TextView
-        android:id="@+id/txt_preguntas"
+        android:id="@+id/txt_mensaje_trivia"
         android:layout_width="match_parent"
         android:layout_height="106dp"
         android:gravity="center"
@@ -35,7 +35,7 @@
         android:layout_height="match_parent">
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/txt_desarrolladores"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="62dp"

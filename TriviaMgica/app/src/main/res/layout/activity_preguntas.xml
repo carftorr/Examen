@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".Preguntas">
 
     <ImageView
         android:id="@+id/imageView"
@@ -27,7 +27,7 @@
         android:layout_width="331dp"
         android:layout_height="68dp"
         android:layout_gravity="center_horizontal"
-        android:onClick="Opcion1"
+        android:onClick="checkRespuesta"
         android:text="Opción 1"
         app:backgroundTint="#C51509" />
 
@@ -36,7 +36,7 @@
         android:layout_width="331dp"
         android:layout_height="68dp"
         android:layout_gravity="center_horizontal"
-        android:onClick="opcion2"
+        android:onClick="checkRespuesta"
         android:text="Opción 2"
         app:backgroundTint="#C51509" />
 
@@ -45,7 +45,7 @@
         android:layout_width="331dp"
         android:layout_height="68dp"
         android:layout_gravity="center_horizontal"
-        android:onClick="opcion3"
+        android:onClick="checkRespuesta"
         android:text="Opción 3"
         app:backgroundTint="#C51509" />
 
@@ -54,7 +54,7 @@
         android:layout_width="331dp"
         android:layout_height="68dp"
         android:layout_gravity="center_horizontal"
-        android:onClick="opcion4"
+        android:onClick="checkRespuesta"
         android:text="Opción 4"
         app:backgroundTint="#C51509" />
 
