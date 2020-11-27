@@ -99,11 +99,11 @@ public class Preguntas extends AppCompatActivity {
 
         if (btnText.equals(respuesta)) {
             // Correct
-            alertTitle = "Correct!";
+            alertTitle = "Correcto";
             respuestaCorrecta++;
 
         } else {
-            alertTitle = "Wrong...";
+            alertTitle = "Incorrecto";
         }
 
         // Create AlertDialog.
@@ -113,15 +113,16 @@ public class Preguntas extends AppCompatActivity {
         builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
-                if (contadorPreguntas== Trivia_Contador) {
+                if (respuestaCorrecta== Trivia_Contador) {
                     // Show Result.
                     Intent intent = new Intent(getApplicationContext(), Ganador.class);
                     intent.putExtra("RIGHT_ANSWER_COUNT", respuestaCorrecta);
                     startActivity(intent);
 
-                } else {
+                } else{
                     contadorPreguntas++;
                     mostrarSigPregunta();
+
                 }
             }
         });
