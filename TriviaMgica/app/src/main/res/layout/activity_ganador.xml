@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Perdedor">
+    tools:context=".Ganador">
 
     <ImageView
         android:id="@+id/imageView"
@@ -15,7 +15,7 @@
         app:srcCompat="@drawable/triste" />
 
     <TextView
-        android:id="@+id/txt_mensaje_perdio"
+        android:id="@+id/txt_preguntas"
         android:layout_width="127dp"
         android:layout_height="184dp"
         android:layout_gravity="center"
