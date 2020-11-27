@@ -15,7 +15,7 @@
         app:srcCompat="@drawable/Logo" />
 
     <TextView
-        android:id="@+id/txt_"
+        android:id="@+id/txt_preguntas"
         android:layout_width="match_parent"
         android:layout_height="106dp"
         android:gravity="center"
@@ -23,13 +23,13 @@
         android:textSize="24sp" />
 
     <Button
-        android:id="@+id/btn_empezar"
+        android:id="@+id/btn_opcion2"
         android:layout_width="331dp"
-        android:layout_height="68dp"
+        android:layout_height="54dp"
         android:layout_gravity="center_horizontal"
         android:onClick="Empezar"
         android:text="Empezar"
-        app:backgroundTint="#C51509" />
+        app:backgroundTint="#AF1308" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"

@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="200px"
+        app:srcCompat="@drawable/starwars" />
+
+    <TextView
+        android:id="@+id/txt_preguntas"
+        android:layout_width="match_parent"
+        android:layout_height="106dp"
+        android:gravity="center"
+        android:text="Preguntas"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_opcion2"
+        android:layout_width="331dp"
+        android:layout_height="68dp"
+        android:layout_gravity="center_horizontal"
+        android:onClick="Empezar"
+        android:text="Opción 1"
+        app:backgroundTint="#C51509" />
+
+    <Button
+        android:id="@+id/btn_opcion2"
+        android:layout_width="331dp"
+        android:layout_height="68dp"
+        android:layout_gravity="center_horizontal"
+        android:onClick="Empezar"
+        android:text="Opción 2"
+        app:backgroundTint="#C51509" />
+
+    <Button
+        android:id="@+id/btn_opcion2"
+        android:layout_width="331dp"
+        android:layout_height="68dp"
+        android:layout_gravity="center_horizontal"
+        android:onClick="Empezar"
+        android:text="Opción 3"
+        app:backgroundTint="#C51509" />
+
+    <Button
+        android:id="@+id/btn_opcion2"
+        android:layout_width="331dp"
+        android:layout_height="68dp"
+        android:layout_gravity="center_horizontal"
+        android:onClick="Empezar"
+        android:text="Opción 4"
+        app:backgroundTint="#C51509" />
+
+
+
+</LinearLayout>
