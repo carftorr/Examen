@@ -29,7 +29,7 @@
         android:layout_height="53dp"
         android:layout_gravity="center"
         android:gravity="center"
-        android:text="Ha contestado 0 preguntas correctas" />
+        android:text="Ha contestado x preguntas correctas" />
 
     <Button
         android:id="@+id/btn_volver"
