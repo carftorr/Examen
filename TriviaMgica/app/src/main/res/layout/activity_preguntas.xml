@@ -23,11 +23,11 @@
         android:textSize="24sp" />
 
     <Button
-        android:id="@+id/btn_opcion2"
+        android:id="@+id/btn_opcion1"
         android:layout_width="331dp"
         android:layout_height="68dp"
         android:layout_gravity="center_horizontal"
-        android:onClick="Empezar"
+        android:onClick="Opcion1"
         android:text="Opción 1"
         app:backgroundTint="#C51509" />
 
@@ -36,25 +36,25 @@
         android:layout_width="331dp"
         android:layout_height="68dp"
         android:layout_gravity="center_horizontal"
-        android:onClick="Empezar"
+        android:onClick="opcion2"
         android:text="Opción 2"
         app:backgroundTint="#C51509" />
 
     <Button
-        android:id="@+id/btn_opcion2"
+        android:id="@+id/btn_opcion3"
         android:layout_width="331dp"
         android:layout_height="68dp"
         android:layout_gravity="center_horizontal"
-        android:onClick="Empezar"
+        android:onClick="opcion3"
         android:text="Opción 3"
         app:backgroundTint="#C51509" />
 
     <Button
-        android:id="@+id/btn_opcion2"
+        android:id="@+id/btn_opcion4"
         android:layout_width="331dp"
         android:layout_height="68dp"
         android:layout_gravity="center_horizontal"
-        android:onClick="Empezar"
+        android:onClick="opcion4"
         android:text="Opción 4"
         app:backgroundTint="#C51509" />
 
