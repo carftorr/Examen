@@ -91,32 +91,31 @@ public class Preguntas extends AppCompatActivity {
 
     public void checkRespuesta(View view) {
 
-        // Get pushed button.
         Button BotonRespuesta = findViewById(view.getId());
         String btnText = BotonRespuesta.getText().toString();
 
         String alertTitle;
 
         if (btnText.equals(respuesta)) {
-            // Correct
+
             alertTitle = "Correcto";
             respuestaCorrecta++;
 
         } else {
             alertTitle = "Incorrecto";
+            Intent intent = new Intent(getApplicationContext(), Perdedor.class);
+            intent.putExtra("RIGHT_ANSWER_COUNT", respuestaCorrecta);
+            startActivity(intent);
         }
 
-        // Create AlertDialog.
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle(alertTitle);
-        builder.setMessage("Answer : " + respuesta);
+        builder.setMessage("Respuesta : " + respuesta);
         builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
                 if (respuestaCorrecta== Trivia_Contador) {
-                    // Show Result.
                     Intent intent = new Intent(getApplicationContext(), Ganador.class);
-                    intent.putExtra("RIGHT_ANSWER_COUNT", respuestaCorrecta);
                     startActivity(intent);
 
                 } else{

@@ -37,6 +37,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="250px"
         android:text="Salir"
+        android:onClick="salir"
         app:backgroundTint="#8F8786" />
 
 </LinearLayout>

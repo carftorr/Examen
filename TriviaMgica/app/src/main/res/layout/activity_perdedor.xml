@@ -16,8 +16,8 @@
 
     <TextView
         android:id="@+id/txt_mensaje_perdio"
-        android:layout_width="127dp"
-        android:layout_height="184dp"
+        android:layout_width="119dp"
+        android:layout_height="128dp"
         android:layout_gravity="center"
         android:gravity="center"
         android:text="Lo siento ha perdido"
@@ -26,10 +26,10 @@
     <TextView
         android:id="@+id/txt_contador"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Has contestado 3 preguntas"
+        android:layout_height="53dp"
         android:layout_gravity="center"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:text="Ha contestado 0 preguntas correctas" />
 
     <Button
         android:id="@+id/btn_volver"
@@ -45,7 +45,7 @@
         android:layout_width="331dp"
         android:layout_height="54dp"
         android:layout_gravity="center_horizontal"
-        android:onClick="Salir"
+        android:onClick="salir"
         android:text="Salir"
         app:backgroundTint="#8F8786" />
 
